@@ -5,7 +5,7 @@ class Song
   def self.create
     song = self.new
     @@all << song
-    return song
+    return song # we return to use in a later part of the program
   end
   
   def self.create_by_name(string)
